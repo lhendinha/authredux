@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import firebase from 'firebase';
+import firebase from '@firebase/app'
 
 import { CardSection, Header, Button, Spinner } from './components/commom';
 import LoginForm from './components/LoginForm';
